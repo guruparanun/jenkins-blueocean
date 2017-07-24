@@ -21,6 +21,6 @@
   },
   "jest": {
     "testMatch": ["**/specs/?(*.)(spec|test).js"],
-    "testPathIgnorePatterns": ["/node_modules/"]
+    "testPathIgnorePatterns": [".*/node_modules/.*"]
   }
 }
