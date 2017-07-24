@@ -20,6 +20,6 @@
     "jest": "^20.0.4"
   },
   "jest": {
-    "testMatch": ["**/specs/?(*.)(spec|test).js"]
+    "testMatch": ["**\\specs\\?(*.)(spec|test).js"]
   }
 }
