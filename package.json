@@ -21,6 +21,7 @@
   },
   "jest": {
     "verbose": true,
-    "testRegex": "specs"
+    "testRegex": "specs",
+    "transformIgnorePatterns": ["<rootDir>/specs/"]
   }
 }
