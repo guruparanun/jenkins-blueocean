@@ -23,8 +23,7 @@
     "verbose": true,
     "testPathIgnorePatterns": [
       "<rootDir>/node_modules/",
-      "<rootDir>/build/",
-      "<rootDir>"
+      "<rootDir>/build/"
     ]
   }
 }
