@@ -20,12 +20,10 @@
     "jest": "^20.0.4"
   },
   "jest": {
-    "testMatch": ["<rootDir>/specs/*.(spec|test).js"],
+    "testMatch": ["<rootDir>/specs/?(*.)(spec|test).js"],
     "testPathIgnorePatterns": [
-      "<rootDir>/(?:.+?)/specs/"
-    ],
-    "unmockedModulePathPatterns": [
-      "<rootDir>/runJest.js$"
+      "<rootDir>/node_modules/",
+      "<rootDir>/build/"
     ]
   }
 }
