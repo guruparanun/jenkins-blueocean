@@ -4,7 +4,7 @@
   "description": "des",
   "main": "index.js",
   "scripts": {
-    "test": "jest --showConfig"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
