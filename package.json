@@ -21,6 +21,9 @@
   },
   "jest": {
     "verbose": true,
-    "testMatch": ["<rootDir>/__tests__/**/*.js?(x)", "<rootDir>/specs/?(*.)(spec|test).js?(x)"]
+    "testMatch": ["<rootDir>/__tests__/*.js?(x)", "<rootDir>/specs/*.js?(x)"],
+    "testPathIgnorePatterns": [
+      "<rootDir>/node_modules/"
+    ]
   }
 }
