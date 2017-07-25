@@ -20,7 +20,6 @@
     "jest": "^20.0.4"
   },
   "jest": {
-    "testMatch": ["**/specs/?(*.)(spec|test).js"],
-    "testPathIgnorePatterns": ["<rootDir>/(?:.+?)/__tests__/"]
+    "testMatch": ["<rootDir>/specs/?(*.)(spec|test).js"]
   }
 }
