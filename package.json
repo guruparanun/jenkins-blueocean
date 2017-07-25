@@ -22,8 +22,8 @@
   "jest": {
     "verbose": true,
     "testPathIgnorePatterns": [
-      "<rootDir>//node_modules//",
-      "<rootDir>//build//"
+      "C:/Program Files (x86)/Jenkins/jobs/guruparanun/jobs/jenkins-blueocean/branches/master/workspace/node_modules/",
+      "<rootDir>/build/"
     ]
   }
 }
