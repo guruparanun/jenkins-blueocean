@@ -21,9 +21,6 @@
   },
   "jest": {
     "verbose": true,
-    "testPathIgnorePatterns": [
-      "<rootDir>/node_modules/"
-    ],
     "testRegex": "specs"
   }
 }
