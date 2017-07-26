@@ -7,23 +7,23 @@ pipeline {
         bat 'npm install'
       }
     }
-    stage('test') {
+    stage('Tests') {
       steps {
         parallel(
-          "test": {
+          "Tests": {
             echo 'testing 1'
             bat 'npm run test'
             
           },
-          "test 3": {
-            echo 'testing 2'
+          "Tests 3": {
+            echo 'testing 3'
             bat 'npm run test3'
             
           }
         )
       }
     }
-    stage('deploy') {
+    stage('Deploy') {
       steps {
         echo 'deploying'
       }
