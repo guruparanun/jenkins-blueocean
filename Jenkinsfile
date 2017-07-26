@@ -15,9 +15,9 @@ pipeline {
             bat 'npm run test'
             
           },
-          "test 2": {
+          "test 3": {
             echo 'testing 2'
-            bat 'jest third.spec'
+            bat 'npm run test3'
             
           }
         )
