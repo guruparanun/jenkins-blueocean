@@ -9,8 +9,23 @@ pipeline {
     }
     stage('test') {
       steps {
-        echo 'testing'
-        bat 'npm run test'
+        parallel(
+          "test": {
+            echo 'testing 1'
+            bat 'npm run test'
+            
+          },
+          "test 2": {
+            echo 'testing 2'
+            bat 'jest third.spec'
+            
+          }
+        )
+      }
+    }
+    stage('deploy') {
+      steps {
+        echo 'deploying'
       }
     }
   }
